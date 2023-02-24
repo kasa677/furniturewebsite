@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+.container ul{
+    list-style: none;
+    gap: 60px;
+    margin-left: 50%;
+}
+h1{
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.back{
+    background-color:darkgray;
+}
+.container ul li{
+    padding:15px;
+}
+.box1{
+    height: 500px;
+    width: 40%;
+    
+    
+}
+.box1 h1{
+    margin-top: 30%;
+    font-size: 50px;
+}
+.box{
+    background-image: url("./assest/img9.jpg.jpg");
+}
+.box2{
+    height: 500px;
+    width: 60%;
+}
+.box2 img{
+    height: 500px;
+    width: 100%;
+}
+.about h1{
+    text-align: center;
+    font-size: 50px;
+
+}
+.about h1:hover{
+    color: lightslategray;
+    cursor: pointer;
+}
+.card-body img{
+    height: 500px;
+    width: 400px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card h2{
+    font-size: 40px;
+  text-align: center;
+
+}
+.card h2:hover{
+    color: lightslategrey;
+    cursor:pointer;
+}
+.card{
+    border-radius: 10px;
+    margin: 20px;
+    
+}
+.card-body img{
+    border-radius: 20px;
+}
+.card-footer p{
+    font-size: 30px;
+}
+.card-footer button{
+    background-color: lightslategray;
+    color: gainsboro;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+}
+.card-footer button:hover{
+    background-color: skyblue;
+    cursor: pointer;
+}
+.gal{
+    text-align: center;
+    font-size: 35px;
+}
+.gal:hover{
+    color: lightslategray;
+}
+.boxe img{
+    width: 400px;
+    height: 500px;
+    background-image: norepeat;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.blog{
+    text-align: center;
+    font-size: 30px;
+}
+.blog h1:hover{
+ color: lightslategray;
+}
+.card img{
+    height: 200px;
+    width: 200px;
+}
+.blogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card button{
+    padding: 20px;
+    border-radius: 6px;
+}
+.lore{
+    font-style: italic;
+    text-align: center;
+   
+    font-size: 30px;
+}
+.lore:hover{
+    color: lightslategray;
+}
+.buy{
+    background-image: url("./assest/img9.jpg.jpg");
+}
+.gae{
+    background-image: url("https://hougumlaw.com/wp-content/uploads/2016/05/light-website-backgrounds-light-color-background-images-light-color-background-images-for-website-1024x640.jpg");
+}
+.abu{
+    background-image: url("https://images.unsplash.com/photo-1454117096348-e4abbeba002c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2Vic2l0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+}
+.box8 h1{
+    text-align: center;
+    color: lightslategray;
+     font-size: 30px;
+}
+.box8{
+    width: 50%;
+    height: 600px;
+}
+.box9{
+    width: 50%;
+    height: 600px;
+}
+.login{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("https://images.unsplash.com/photo-1454117096348-e4abbeba002c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2Vic2l0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form input{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    padding: 20px;
+    width: 70%;
+    margin-left: 100px;
+    border-radius: 10px;
+    
+
+}
+ .sub{
+    padding: 20px;
+    margin-left: 100px;
+    border-radius: 12px;
+    background-color: lightslategray;
+    color: white;
+    border: none;
+}
+.facebook{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    
+    
+   
+}
+.facebook img{
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+}
+.other{
+    text-align: center;
+    color: lightslategray;
+    font-size:30px;
+    margin-top: 20px;
+}
